@@ -1,0 +1,123 @@
+body {
+    position: relative; 
+  }
+@media screen and (max-width: 600px) {
+  .column,.column-r, .column-l, input[type=submit], input[type=text], input[type=email], select, textarea {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+input[type=text], select, textarea,[type=email]  {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  /*resize: vertical;*/
+}
+input[type=submit],[type=reset]  {
+  width: 25%;
+  padding: 10px;
+  /*border: 1px solid #ccc;*/
+  margin-top: 6px;
+  margin-bottom: 16px;
+ /* resize: vertical;*/
+}
+label {
+  float: left;
+  margin-bottom: 6px;
+  /*color: #fff;*/
+}
+footer {
+	padding: 10px 20px;
+        background: #111212;
+        color: white;
+}
+/*form{
+  border: 2px solid red;
+  border-radius: 5px;
+}
+*/
+.v1{
+  border-right: 1px solid black;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
+div.gallery {
+  margin: 5px;
+  border: 0px;
+  float: left;
+  width: 350px;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  /*text-align: center;*/
+}
+
+div.hmeimg {
+  /*margin: 5px;*/
+  border: 0px;
+  float: middle;
+  /*width: 450px;*/
+  width: 100%;
+  height: auto;
+}
+
+/*div.hmeimg img {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}*/
+
+.middle {
+  width: 80%;
+  
+}
+h1{
+  font-family: "Courier New", Courier, monospace;
+  font-size: 45px;
+}
+p{
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px; 
+}
+  #section1 {
+  	padding-top:50px;
+  	height:350px;
+  	color: #fff;
+  	background-color: #f95c17;
+  }
+  #section2 {
+  	padding-top:50px;
+  	height:615px;
+  	color: #fff;
+  	background-color: #f93d17;
+  }
+  #section3 {
+  	padding-top:50px;
+  	height:700px;
+  	color: #fff;
+  	background-color: #f95c17;
+  }
+  #section4 {
+  	padding-top:50px;
+  	height:625px;
+  	color: #111212;
+  	background-color: #fff;
+  }
+  #section5 {
+  	padding-top:50px;
+  	height:715px;
+  	color: #111212;
+  	background-color: #fff;
+  }
+.response{
+  max-width: 100%;
+  height: auto;
+}  
